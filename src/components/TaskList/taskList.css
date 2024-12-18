@@ -1,0 +1,61 @@
+.taskList {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.87);
+    color: #242424;
+    padding: 20px 20px 30px 20px;
+    box-shadow: 2px -2px 4px rgba(246, 245, 245, 0.87);
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.taskList__ul {
+    text-align: left;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.taskList__li {
+    color: #242424;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.taskList__item {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.taskList__item_iconDone {
+    width: 30px;
+    height: 30px;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    color: green;
+}
+
+.taskList__item_iconOut {
+    width: 30px;
+    height: 30px;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    color: grey;
+}
+
+.taskList__item_btn {
+    padding: 0 20px;
+    cursor: pointer;
+    color: red;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
